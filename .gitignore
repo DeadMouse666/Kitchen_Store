@@ -1,0 +1,14 @@
+# Игнорировать файлы, созданные Docker
+*.log
+*.pid
+*.lock
+
+# Игнорировать volumes Docker
+db_data/
+
+# Игнорировать PHPStorm или VSCode настройки
+.idea/
+.vscode/
+
+# # Игнорировать временные файлы Symfony
+# /app/var/
