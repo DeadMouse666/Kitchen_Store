@@ -1,0 +1,23 @@
+<h1>Create a new Product</h1>
+
+{{ form_start(form) }}
+    <div>
+        {{ form_label(form.name) }}
+        {{ form_widget(form.name) }}
+    </div>
+    <div>
+        {{ form_label(form.description) }}
+        {{ form_widget(form.description) }}
+    </div>
+    <div>
+        {{ form_label(form.price) }}
+        {{ form_widget(form.price) }}
+    </div>
+    <div>
+        {{ form_label(form.image_url) }}
+        {{ form_widget(form.image_url) }}
+    </div>
+    <button type="submit">Save</button>
+{{ form_end(form) }}
+
+<a href="{{ path('product_list') }}">Back to product list</a>

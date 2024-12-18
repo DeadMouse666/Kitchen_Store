@@ -1,0 +1,27 @@
+<<<<<<< HEAD
+# Игнорировать файлы, созданные Docker
+*.log
+*.pid
+*.lock
+
+# Игнорировать volumes Docker
+db_data/
+
+# Игнорировать PHPStorm или VSCode настройки
+.idea/
+.vscode/
+
+# Игнорировать временные файлы Symfony
+/app/var/
+=======
+
+###> symfony/framework-bundle ###
+/.env.local
+/.env.local.php
+/.env.*.local
+/config/secrets/prod/prod.decrypt.private.php
+/public/bundles/
+/var/
+/vendor/
+###< symfony/framework-bundle ###
+>>>>>>> 2a2e1f1 (Add initial set of files)
